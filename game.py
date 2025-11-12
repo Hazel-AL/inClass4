@@ -9,3 +9,8 @@ while True:
     else:
         print(f"You chose: {player}.")
         break
+
+import random
+
+def computer_choice():
+    return random.choice(["rock", "paper", "scissors"])
